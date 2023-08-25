@@ -5,7 +5,7 @@ const questionSchema = new mongoose.Schema({
     title: {
          type: mongoose.Schema.Types.String,
          required: true,
-         unique: true,
+         unique: true, 
     },
     options:[
         {
